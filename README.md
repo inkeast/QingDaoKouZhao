@@ -8,18 +8,12 @@
     selenium
 ## 运行
     修改kouzhao.py中的
-    ```
     开抢时间 = "2020-02-13 08:30:00"  
     姓名 = ""  
     电话 = ""  
     身份证号 = ""  
-    ```
     修改
-    ```
     driver.find_element_by_css_selector("*[data-name='国风大药房国风药店'] > .layui-col-xs2.action.text-right").click()
-    ```
     中的药店名(务必准确！！)
     在命令台中运行：
-    ```
     python kouzhao.py
-    ```
